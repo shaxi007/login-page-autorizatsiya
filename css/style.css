@@ -103,5 +103,6 @@ a{
 }
 
 #name_p,#lst_p,#email_p,#password_p,#password_pt {
+    margin-left: 10px;
     color: red;
 }

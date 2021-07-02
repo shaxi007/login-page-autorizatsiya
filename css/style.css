@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: #63738a;
+}
+.container {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f1f2f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0,0.5);
+}
+h1 {
+    text-align: center;
+    opacity: 0.6;
+    font-size: 40px;
+}
+.p1 {
+    text-align: center;
+    opacity: 0.6;
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+}
+
+ul {
+    width: 500px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+li {
+    padding: 10px;
+}
+.user-va-last{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.inpt{
+    width: 450px;
+    height: 50px;
+    padding: 10px;
+}
+
+.ipt{
+    width: 210px;
+    height: 50px;
+    padding: 10px;
+}
+.ipt:last-child{
+    margin-right: 6px;
+}
+.ipt,.inpt {
+    border: #CFD0D2 solid 1px;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+.chek {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 70px ;
+}
+.cekbox {
+    width: 20px;
+    height: 20px;
+}
+.chek-yoz {
+    margin-left: 5px;
+    font-size: 20px;
+}
+button {
+    width: 450px;
+    height: 60px;
+    margin: 30px 30px 40px 0;
+    background-color: #50A751;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+    font-size: 23px;
+    border: 2px solid #50A751;
+}
+
+.tagi {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+a{
+    color: white;
+}
+
+#name_p,#lst_p,#email_p,#password_p,#password_pt {
+    color: red;
+}
